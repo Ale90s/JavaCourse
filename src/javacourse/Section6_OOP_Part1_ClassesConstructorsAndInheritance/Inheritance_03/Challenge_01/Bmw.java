@@ -15,4 +15,8 @@ public class Bmw extends Car{
         super(speed, steering, fuel, changingGear, wheels);
         this.specificBmwGear = "No extras specified";
     }
+
+    public String getSpecificBmwGear() {
+        return specificBmwGear;
+    }
 }

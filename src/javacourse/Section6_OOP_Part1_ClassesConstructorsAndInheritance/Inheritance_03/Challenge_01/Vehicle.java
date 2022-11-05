@@ -7,7 +7,7 @@ public class Vehicle {
 
     private String fuel;
 
-    public Vehicle(int speed, String steering,String fuel) {
+    public Vehicle(int speed, String steering, String fuel) {
         this.speed = speed;
         this.steering = steering;
         this.fuel = fuel;
